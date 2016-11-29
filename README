@@ -1,3 +1,10 @@
+NOTE: if you guys can, please add changed to the commits 
+
+ASWELL as here. it makes it easy to read and follow up with any changes.
+
+
+
+
 ---------------------------------------------
 Credits:
 skyboxes: https://www.assetstore.unity3d.com/en/#!/content/21737
@@ -24,7 +31,10 @@ Create a Main Menu, this should be simple, but can be done at anytime
 
 
 
-
+Version 0.11 - Roberto Morales
+--------------
+added colliders so car can't escape the map
+Vince added a placeholder for main menu
 
 Version 0.10 - Roberto Morales
 --------------
