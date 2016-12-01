@@ -29,7 +29,9 @@ Decide each persons role in the project
 Create a Main Menu, this should be simple, but can be done at anytime
 ---------------------
 
-
+Version 0.12 - Vince Nguyen
+--------------
+Fixed the main menu so it now correctly loads the game.
 
 Version 0.11 - Roberto Morales
 --------------
