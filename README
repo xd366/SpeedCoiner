@@ -9,6 +9,7 @@ ASWELL as here. it makes it easy to read and follow up with any changes.
 Credits:
 skyboxes: https://www.assetstore.unity3d.com/en/#!/content/21737
 standard unity assets: https://www.assetstore.unity3d.com/en/#!/content/32351
+fence: https://www.assetstore.unity3d.com/en/#!/content/6722
 
 ----------------------------------------------
 
@@ -28,6 +29,12 @@ Decide how the game will work
 Decide each persons role in the project
 Create a Main Menu, this should be simple, but can be done at anytime
 ---------------------
+
+version 0.13 -  roberto morales
+--------------
+added fences to the walls. not sure if its the best idea, but for now it works. 
+also i'm still not sure if we're using the git correctly. i dont see the main menu thing fixed on my version.
+
 
 Version 0.12 - Vince Nguyen
 --------------
