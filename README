@@ -10,6 +10,10 @@ Goals:
 2. Decide how the game will work
 3. add anything to the game
 ---------------------
+Version 0.14 - Vince Nguyen
+----------------
+Fixed the menu / howto page to now correctly display in 16:9
+Edited some of the Howto text to include WASD can also move the vehicles.
 
 Version 0.13 - Roberto Morales
 ---------------
