@@ -4,8 +4,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-	public void LoadScene(int level)
+	public string playGameLevel;
+
+	public void PlayGame()
 	{
-		SceneManager.LoadScene (level);
+		SceneManager.LoadScene (playGameLevel);
+
 	}
+
+	public void QuitGame()
+	{
+		Application.Quit ();
+	}
+
 }
