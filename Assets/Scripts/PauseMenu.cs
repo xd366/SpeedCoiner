@@ -33,7 +33,7 @@ public class PauseMenu : MonoBehaviour {
 	public void QuitToMain ()
 	{
 		Time.timeScale = 1f;
-		Application.LoadLevel
+        Application.LoadLevel("MainMenu");
 	}
 
 
