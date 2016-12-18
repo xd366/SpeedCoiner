@@ -26,7 +26,7 @@ public class PauseMenu : MonoBehaviour {
 	{
 		Time.timeScale = 1f;
 		pauseMenu.SetActive (false);
-	//	FindObjectOfType<GameManager>().Reset();
+		FindObjectOfType<GameManager>().Reset();
 
 	}
 

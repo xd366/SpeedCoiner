@@ -11,6 +11,17 @@ Goals:
 3. add anything to the game
 
 
+
+version .30 - roberto morales
+----------------------------
+moved all scripts to /Assets/Standard Assets/Vehicles/Car/Scripts
+it was causing problems
+added death menu
+added pause menu
+edit: moved all scripts back to scripts folder. ALL, even the car scripts
+
+
+
 version .25 - roberto morales
 ---------------------------
 added bombs
