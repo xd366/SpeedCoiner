@@ -10,6 +10,10 @@ Goals:
 2. Decide how the game will work
 3. add anything to the game
 
+version .55
+-----
+updated readme with more credits
+added more fences still. 
 
 version .50
 ------------------------
@@ -106,5 +110,6 @@ uploaded to rijeka
 Credits:
 skyboxes: https://www.assetstore.unity3d.com/en/#!/content/21737
 standard unity assets: https://www.assetstore.unity3d.com/en/#!/content/32351
-
+powerup: https://www.assetstore.unity3d.com/en/#!/content/36106
+fence: https://www.assetstore.unity3d.com/en/#!/content/6722
 ----------------------------------------------
