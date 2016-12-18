@@ -6,12 +6,12 @@ public class GameManager : MonoBehaviour {
 	public CarController theCar;
 	private Vector3 carStartPoint;
 
-
+	private ScoreManager theScoreManager;
 
 	void Start () {
 		
 		carStartPoint = theCar.transform.position;
-
+		theScoreManager = FindObjectOfType<ScoreManager> ();
 
 	}
 
@@ -33,20 +33,13 @@ public class GameManager : MonoBehaviour {
 
 	public IEnumerator RestartGameCo()
 	{
+		theScoreManager.scoreIncreasing = false;
 		theCar.gameObject.SetActive (false);
 		yield return new WaitForSeconds (0.5f);
 		theCar.transform.position = carStartPoint;
 		theCar.gameObject.SetActive (true);
-
-		//theScoreManager.scoreIncreasing = false;
-
-
-
-
-
-
-		//theScoreManager.scoreCount = 0;
-		//theScoreManager.scoreIncreasing = true;
+		theScoreManager.scoreCount = 0;
+		theScoreManager.scoreIncreasing = true;
 	}
 
 
