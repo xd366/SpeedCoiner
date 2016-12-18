@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
 	private ScoreManager theScoreManager;
 
 	public DeathMenu theDeathScreen;
+	public WinMenu theWinMenu;
 
 	void Start () {
 		
@@ -38,16 +39,21 @@ public class GameManager : MonoBehaviour {
 		theScoreManager.scoreCount = 0;
 		theScoreManager.scoreIncreasing = true;
 		theDeathScreen.gameObject.SetActive (false);
+		theWinMenu.gameObject.SetActive (false);
+		/*
+		*here we need something that resets the coins
+		*so basically something that finds tags "Coins" & "diamonds"
+		*and set them as active
+		*/
 	}
 		
 
 	public void FinishGame()
 	{
-		/*
+		
 		theScoreManager.scoreIncreasing = false;
 		theCar.gameObject.SetActive (false);
-		theWinScreen.gameObject.SetActive (true);
-*/
+		theWinMenu.gameObject.SetActive (true);
 	}
 
 

@@ -373,8 +373,13 @@ using UnityStandardAssets.Vehicles.Car;
 	void OnCollisionEnter (Collision other)
 	{
 		if (other.gameObject.tag == "killbox")
-		theGameManager.RestartGame();
+			theGameManager.RestartGame ();
+		else if (other.gameObject.tag == "Finish")
+			theGameManager.FinishGame ();
+		
 	}
+
+
 
     }
 	
