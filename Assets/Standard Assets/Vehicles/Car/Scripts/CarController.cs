@@ -1,8 +1,9 @@
 using System;
 using UnityEngine;
+using UnityStandardAssets.Vehicles.Car;
 
-namespace UnityStandardAssets.Vehicles.Car
-{
+
+
     internal enum CarDriveType
     {
         FrontWheelDrive,
@@ -54,6 +55,9 @@ namespace UnityStandardAssets.Vehicles.Car
         public float MaxSpeed{get { return m_Topspeed; }}
         public float Revs { get; private set; }
         public float AccelInput { get; private set; }
+		
+		public GameManager theGameManager;	
+
 
         // Use this for initialization
         private void Start()
@@ -352,6 +356,8 @@ namespace UnityStandardAssets.Vehicles.Car
         }
 
 
+
+
         private bool AnySkidSoundPlaying()
         {
             for (int i = 0; i < 4; i++)
@@ -363,5 +369,13 @@ namespace UnityStandardAssets.Vehicles.Car
             }
             return false;
         }
+
+	void OnCollisionEnter (Collision other)
+	{
+		if (other.gameObject.tag == "killbox")
+		theGameManager.RestartGame();
+	}
+
     }
-}
+	
+	
