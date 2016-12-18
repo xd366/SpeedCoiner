@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour {
 
 	public string mainMenuLevel;
@@ -33,7 +33,7 @@ public class PauseMenu : MonoBehaviour {
 	public void QuitToMain ()
 	{
 		Time.timeScale = 1f;
-        Application.LoadLevel("MainMenu");
+		SceneManager.LoadScene(mainMenuLevel);
 	}
 
 

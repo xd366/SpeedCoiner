@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour {
 		theCar.gameObject.SetActive (false);
 		theDeathScreen.gameObject.SetActive (true);
 
+
 	}
 
 	public void Reset()

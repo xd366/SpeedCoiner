@@ -10,6 +10,15 @@ Goals:
 2. Decide how the game will work
 3. add anything to the game
 
+
+version .45
+-----------------------
+score system now fully functional
+made track wider
+added multiple pathways
+added finish line
+
+
 version .40 - roberto morales
 ---------------------------
 fixed the main menu. all buttons work now

@@ -30,7 +30,12 @@ public class ScoreManager : MonoBehaviour {
 	void Update () {
 		if (scoreIncreasing) 
 		{
-			scoreCount += pointsPerSecond * Time.deltaTime;
+			/*
+I removed the following line because it was from my 2D Game
+it makes the score counter go up by one each second
+			*/
+
+			//scoreCount = scoreCount += pointsPerSecond * Time.deltaTime;
 		}
 
 		if (scoreCount > hiScoreCount)
