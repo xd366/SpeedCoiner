@@ -11,6 +11,11 @@ Goals:
 
 2. Decide how the game will work
 3. add anything to the game
+version .67
+---------------------
+Added a for loop to GameManager.cs to reset coins and diamonds
+Found a bug where you can get stuck on the fence when going over the ramp if you're not traveling fast enough (haven't fixed yet)
+
 version .66
 ---------------------
 I added the link to the game design document. - vince
