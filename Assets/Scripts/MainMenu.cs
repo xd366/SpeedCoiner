@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour {
 	public string playGameLevel;
 	public string howToPlay;
 	public string playCredits;
+	public string backtoMenu;
 
 	public void PlayGame()
 	{
@@ -17,6 +18,11 @@ public class MainMenu : MonoBehaviour {
 	public void HowToPlay()
 	{
 		SceneManager.LoadScene (howToPlay);
+
+	}
+	public void Menus()
+	{
+		SceneManager.LoadScene (backtoMenu);
 
 	}
 
