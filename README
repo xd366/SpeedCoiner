@@ -1,5 +1,7 @@
 NOTE: if you guys can, please add changed to the commits 
 
+Game Design Document: https://docs.google.com/document/d/1UA5yExFgbCebrFAhKuBlr3UhojWS5UTS-3yW85ZjjC8/edit?usp=sharing
+
 Remember to write down what you did in each build, even the simple things. 
 
 
@@ -9,7 +11,9 @@ Goals:
 
 2. Decide how the game will work
 3. add anything to the game
-
+version .66
+---------------------
+I added the link to the game design document. - vince
 
 version .65
 -----------------
