@@ -10,6 +10,13 @@ Goals:
 2. Decide how the game will work
 3. add anything to the game
 
+
+version .65
+-----------------
+walls are done.
+added secret section
+added ramp to make jump easier
+
 version .60
 ----------
 almost done with the tracks
@@ -117,4 +124,5 @@ skyboxes: https://www.assetstore.unity3d.com/en/#!/content/21737
 standard unity assets: https://www.assetstore.unity3d.com/en/#!/content/32351
 powerup: https://www.assetstore.unity3d.com/en/#!/content/36106
 fence: https://www.assetstore.unity3d.com/en/#!/content/6722
+ramp: http://tf3dm.com/3d-model/motorbike-jump-33208.html
 ----------------------------------------------
