@@ -1,16 +1,20 @@
-NOTE: if you guys can, please add changed to the commits 
 
 Game Design Document: https://docs.google.com/document/d/1UA5yExFgbCebrFAhKuBlr3UhojWS5UTS-3yW85ZjjC8/edit?usp=sharing
 
-Remember to write down what you did in each build, even the simple things. 
 
 
-Goals:
---------------------
-1. Make sure everyone can clone and push to the repo!!!!!
+version whatever
+-----------------------
+omg i'm dumb
+the aspect ratio was all wrong because my laptop is 4k.
+i realized it looked dumb on a regular screen.
+i changed the ratio to a regular 1080p screen
+1920x1080 it looks normal now.
 
-2. Decide how the game will work
-3. add anything to the game
+also, i added splash screen, fixed all the 16x9 aspect ratio issues
+
+
+
 version .67
 ---------------------
 Added loop to reset coins and diamonds
