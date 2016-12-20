@@ -1,5 +1,12 @@
 Game Design Document: https://docs.google.com/document/d/1UA5yExFgbCebrFAhKuBlr3UhojWS5UTS-3yW85ZjjC8/edit?usp=sharing
 
+How to play:
+----------------------
+Move the car with either WASD / Arrow Keys
+Collect coins and diamonds to increase your score.
+Avoid bombs or else you will lose if you collide with them
+You have a finite amount of time make sure to keep collecting the hourglass to continue to play
+
 version 2.23
 -----------------------
 added wish list and what we developed.
