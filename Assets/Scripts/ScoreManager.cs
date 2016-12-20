@@ -36,6 +36,7 @@ it makes the score counter go up by one each second
 			*/
 
 			//scoreCount = scoreCount += pointsPerSecond * Time.deltaTime;
+
 		}
 
 		if (scoreCount > hiScoreCount)
@@ -53,5 +54,7 @@ it makes the score counter go up by one each second
 	{
 		scoreCount += pointsToAdd;
 	}
+
+
 
 }

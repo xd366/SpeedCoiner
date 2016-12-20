@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
 	private Vector3 carStartPoint;
 
 	private ScoreManager theScoreManager;
-
+	public TimeManager theTimeManager;
 	public DeathMenu theDeathScreen;
 	public WinMenu theWinMenu;
 
@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour {
 
 	public void RestartGame()
 	{
-
+		theTimeManager.timeDecreasing = false;
 		theScoreManager.scoreIncreasing = false;
 		theCar.gameObject.SetActive (false);
 		theDeathScreen.gameObject.SetActive (true);
@@ -36,15 +36,20 @@ public class GameManager : MonoBehaviour {
             } else if (possibleItemsToReset[i].CompareTag("Diamonds") == true) {
                 possibleItemsToReset[i].SetActive(true);
             }
+			else if (possibleItemsToReset[i].CompareTag("HourGlass") == true) {
+				possibleItemsToReset[i].SetActive(true);
+			}
         }
 
 	}
 
 	public void Reset()
 	{
+		theTimeManager.timeDecreasing = true;
 		theCar.transform.position = carStartPoint;
 		theCar.gameObject.SetActive (true);
 		theScoreManager.scoreCount = 0;
+		theTimeManager.startingTime = theTimeManager.theOriginalStartTime;
 		theScoreManager.scoreIncreasing = true;
 		theDeathScreen.gameObject.SetActive (false);
 		theWinMenu.gameObject.SetActive (false);
@@ -60,6 +65,9 @@ public class GameManager : MonoBehaviour {
             } else if (possibleItemsToReset[i].CompareTag("Diamonds") == true) {
                 possibleItemsToReset[i].SetActive(true);
             }
+			else if (possibleItemsToReset[i].CompareTag("HourGlass") == true) {
+				possibleItemsToReset[i].SetActive(true);
+			}
         }
     }
 		
