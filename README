@@ -1,5 +1,8 @@
-
 Game Design Document: https://docs.google.com/document/d/1UA5yExFgbCebrFAhKuBlr3UhojWS5UTS-3yW85ZjjC8/edit?usp=sharing
+version whatever 2.2
+-----------------------
+Background music added, Menu art, extra instructions for "how to play"
+
 version whatever 2.1
 -----------------------
 Placed more coins, diamonds, and bombs
@@ -147,4 +150,5 @@ standard unity assets: https://www.assetstore.unity3d.com/en/#!/content/32351
 powerup: https://www.assetstore.unity3d.com/en/#!/content/36106
 fence: https://www.assetstore.unity3d.com/en/#!/content/6722
 ramp: http://tf3dm.com/3d-model/motorbike-jump-33208.html
+Background Music: samples from "Formula 06 (DJ Beam Vidio Remix)" by DJ Visage.
 ----------------------------------------------
