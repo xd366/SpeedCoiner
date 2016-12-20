@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour {
 
 	public void FinishGame()
 	{
-		
+		theTimeManager.timeDecreasing = false;
 		theScoreManager.scoreIncreasing = false;
 		theCar.gameObject.SetActive (false);
 		theWinMenu.gameObject.SetActive (true);
