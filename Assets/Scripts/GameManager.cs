@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour {
             } else if (possibleItemsToReset[i].CompareTag("Diamonds") == true) {
                 possibleItemsToReset[i].SetActive(true);
             }
-			else if (possibleItemsToReset[i].CompareTag("HourGlass") == true) {
+			 else if (possibleItemsToReset[i].CompareTag("HourGlass") == true) {
 				possibleItemsToReset[i].SetActive(true);
 			}
         }
